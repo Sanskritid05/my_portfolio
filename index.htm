@@ -1,4 +1,4 @@
-DOCTYPE HTML
+<!-- DOCTYPE HTML -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,44 +16,50 @@ DOCTYPE HTML
             padding-bottom: 8px;
             background-color: rgb(50, 41, 41);
             color: white;
-        .first-strip-2{
-            padding-left: 300px;
         }
-        .bi-facebook,.bi-twitter,.bi-instagram,.bi-youtube{
+        .first-strip-2 a{
+            padding-left: 300px;
+            text-decoration: none;
+            color: white;
+        }
+        .bi-linkedin,.bi-github,.bi-instagram{
             background-color: gray;
             padding-top: 8px;
             padding-bottom: 8px;
             padding-left: 8px;
             padding-right: 8px;
         }
-        }
         .second-strip{
             /* margin:-8px ; */
             display: grid;
             grid-template-columns: 4fr 4fr 4fr;
+        }
         .brand-name{
             padding-top: 20px;
             padding-left: 150px;
-            .papermag{
-                font-size:20px;
-            }
         }
+        .papermag{
+            font-size:20px;
         }
         .navlings{ 
             padding-left: 12px;
             display: flex;
             justify-content: space-between;
             color: rgb(97, 92, 92);
-            .home{
-                background-color: goldenrod;
-                padding-top: 10px;
-                color: white;
-                padding-left: 15px;
-                padding-right: 15px;
-                }
-            .home,.page,.catalog,.blog,.contact{
-                padding-top: 20px;
-            }
+        }
+        .navlings a{
+            text-decoration: none;
+            color: grey;
+        }
+        .home{
+            background-color: goldenrod;
+            padding-top: 10px;
+            color: white;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .home,.qualification,.domains,.blogpost,.contact{
+            padding-top: 20px;
         }
         .search{
             color: rgb(97, 92, 92);
@@ -62,49 +68,110 @@ DOCTYPE HTML
             padding-right: 100px;
             padding-top: 20px;
             /* border: 1px solid rgb(97, 92, 92); */
-            .search-2{
-                border: 1px solid rgb(97, 92, 92);
-                display: flex;
-                padding-left: 5px;
-                padding-right: 5px;
-                padding-top: 2px;
-            }
-            .bi-search{
-                /* display: flex; */
-                padding-left: 80px;
-            }
-        }     
+        }
+        .search-2{
+            border: 1px solid rgb(97, 92, 92);
+            display: flex;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 2px;
+        }
+        .home-content{
+            text-align: justify;
+            margin-left: 200px;
+            margin-top: 70px;
+
+            font-size: 15px;
+            line-height: 20px;
+        }   
+        .home-content-summary{
+            border: 1px solid black;
+            width: 500px;
+            height: 100px;
+            padding-left: 20px;
+            padding-top: 20px;
+            margin-top: 60px;
+            margin-bottom: 160px;
+        } 
+        .qualification-content{
+            margin-left: 200px;
+        }
+        .qualification-content-summary{
+            /* border: 1px solid black; */
+            width: 550px;
+            height: 180px;
+            /* padding-left: px; */
+            padding-top: 50px;
+            margin-top: 60px;
+            margin-bottom: 160px;
+            font-size: 15px;
+
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="first-strip">
-            <div>+00 1234 567</div>
+            <div>+91 89X-XXXX-XXX</div>
             <div class="first-strip-2">
-                <span class="bi bi-facebook"></span>
-                <span class="bi bi-twitter"></span>
+               <a href="https://www.linkedin.com/in/sanskriti-dutta-b39615307/"><span class="bi bi-linkedin"></span></a>
+                <span class="bi bi-github"></span>
                 <span class="bi bi-instagram"></span>
-                <span class="bi bi-youtube"></span>
             </div>
         </div>
         <div class="second-strip">
             <div class="brand-name">
-                <div class="papermag">PAPERMAG</div>
-                <div class="magzine">MAGAZINE</div>
+                <div class="papermag">PROSPECTA</div>
+                <div class="magzine">A STUDENT PROFILE</div>
             </div>
             <div class="navlings">
-                <div class="home">HOME</div>
-                <div class="page">PAGE</div>
-                <div class="catalog">CATALOG</div>
-                <div class="blog">BLOG</div>
-                <div class="contact">CONTACT</div>  
-            </div>
-            <div class="search">
-                    <div class="search-2">Search
-                        <div class="bi bi-search"></div>  
-                    </div>  
+                <div class="home"><a  style="color: rgb(75, 71, 71);" href="#home">HOME</a></div>
+                <div class="qualification"><a href="#qualification">QUALIFIACTION</a></div>
+                <div class="domains"><a href="#domains">DOMAINS</a></div>
+                <div class="blogpost"><a href="#blogpost">WRITE UP</a></div>
+                <div class="contact"><a href="#contact">CONTACT</a></div>
             </div>
         </div>
     </header>
+    <hr>
+    <section>
+        <!-- HOME SECTION -->
+        <div class="home-content">
+            <h2 id="home">HOME</h2>
+                <p>
+                    Hello, I'm Sanskriti Dutta, first year Bachelor Student in Computer Science. <br>
+                    I'm looking forward to elevate my skills in prior to Web Development and Programming.<br> 
+                    I've been up radaring for new inventions in the field of AI and posted a quite some content onto my LinkedIn Page.<br>
+                    I studied Informatics Practices in High School referring to which I have a strong hold onto my Subjects including Python and Sql.<br>
+                    Currently learning C programming and User-Interface Website Building using Html and Css; also Excel.<br>
+                    Language profiency in English makes me up to leverage my skills in Technical as well as Creative Writing.<br>
+                </p>
+                <p>
+                    <div class="home-content-summary">
+                        <div class="bi bi-person"> Sanskriti Dutta</div>
+                        <div class="bi bi-book"> Computer Science</div>
+                        <div class="bi bi-lightbulb"> HTML | CSS | C-Programming | Python | SQL | Excel</div>
+                        <div class="bi bi-heart"> Writing | Designing | Badminton</div>
+                    </div>
+                </p>
+        </div>
+        <!-- QUALIFICATION SECTION -->
+        <div class="qualification-content">
+            <h2 id="qualification">QUALIFICATION</h2>
+                <p>
+                    <div class="qualification-content-summary">
+                        <div class="bi bi-mortarboard"> Higher-Secondary Education :: Maths + Informatics Practices</div>
+                        <div class="bi-geo-fill"><span style="font-weight: bolder;"> Holy Cross Senior Secondary School, Pension Bada, Raipur, Chhattisgarh - INDIA</span></div>
+                        <br>
+                        <div class="bi bi-mortarboard"> 1st year UG Student in Computer Science</div>
+                        <div class="bi-geo-fill"><span style="font-weight: bolder;"> Physics Wallah Institute of Innovation, Bengaluru, Karnataka - INDIA</span></div>
+                        <br>
+                        <div class="bi bi-mortarboard"> 1st year in Bachelor of Computer Applications</div>
+                        <div class="bi-geo-fill"><span style="font-weight: bolder;"> Manipal Institute of Technology, Jaipur, Rajasthan - INDIA</span></div>
+
+                    </div>
+                </p>
+        </div>
+    </section>
 </body>
 </html>
