@@ -47,12 +47,15 @@
         .navlings{ 
             padding-left: 12px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             color: rgb(97, 92, 92);
         }
         .navlings a{
             text-decoration: none;
             color: grey;
+        }
+        .navlings div{
+            margin-left: 10px;
         }
         .home{
             background-color: goldenrod;
@@ -61,7 +64,7 @@
             padding-left: 15px;
             padding-right: 15px;
         }
-        .home,.qualification,.domains,.blogpost,.contact{
+        .home,.qualification,.domains,.blogpost,.project,.contact{
             padding-top: 20px;
         }
         .search{
@@ -160,7 +163,8 @@
                 <div class="home"><a  style="color: rgb(75, 71, 71);" href="#home">HOME</a></div>
                 <div class="qualification"><a href="#qualification">QUALIFIACTION</a></div>
                 <div class="domains"><a href="#domains">DOMAINS</a></div>
-                <div class="blogpost"><a href="#blogpost">WRITE UP</a></div>
+                <div class="blogpost"><a href="#blogpost">BLOG</a></div>
+                <div class="project"><a href="#project">PROJECT</a></div>
                 <div class="contact"><a href="#contact">CONTACT</a></div>
             </div>
         </div>
@@ -170,6 +174,9 @@
         <!-- HOME SECTION -->
         <div class="home-content">
             <h2 id="home">HOME</h2>
+            <img src="public/images/prospecta_image.jpg" title="Sanskriti Dutta" height="200" width="200" style="border-radius: 50px; border: 7px solid goldenrod;">
+
+            <div>
                 <p>
                     Hello, I'm Sanskriti Dutta, first year Bachelor Student in Computer Science. <br>
                     I'm looking forward to elevate my skills in prior to Web Development and Programming.<br> 
@@ -186,6 +193,11 @@
                         <div class="bi bi-heart"> Writing | Designing | Badminton</div>
                     </div>
                 </p>
+            </div>
+            <div>
+                
+            </div>
+                
         </div>
         <!-- QUALIFICATION SECTION -->
         <div class="qualification-content">
@@ -227,17 +239,48 @@
                 <h2 id="blogpost">SAMPLE BLOG POST</h2>
                     <p>
                         <div class="blogpost-content-summary">
-                            Sample blog post
+                            Sample blog post:<br>
                             The 5G Future Forecast Forum: The Transformational-Upbringing and Next Ups
 
                             ||| 5G's an underrated rag?
                             After the formal release in 2019, the storming demand of users made a remarkable all-wanting fascination turning out to be an irreplaceable reality amongst millennials and gen-z; wherefore 5G gained its name! Precisely, in 2020 Apple made an experimental launch of its i-phone models with a giant network name-"5G" which not only flooded the markets but also crested in 62% smartphone manufacturing supporting 5G Network and Connectivity Features including the topmost ideas of improvised latency, throughput and bandwidth, improving download and upload speed rate and many more...
                             Now what to jot down for future? where 5G Enfield as a competency equal and concise to the Algorithmic Giants like AI (Artificial Intelligence), ML(Machine Learning), IoT (Internet of Things) and likewise. Will it outperform by reducing the Complexity? or will result in being just as another "Passing Cloud"?  
                             <br>||| What is 5G?
-                            The Fifth Generation Mobile Technology is for 5G. It is developed by 3rd Generation...
+                            The Fifth Generation Mobile Technology is for 5G. It is developed by 3rd Generation...                    
+                        </p>
+                        <a class="bi-journal-bookmark-fill" style="text-decoration: none; color: blue;" target="_self" href="public/docs/Sample blog post_notepad.txt"> Open My Document</a>
+             </div>
+
+        </div>
+        <!-- PROJECTS-->
+        <div>
+            <div class="project-content" >
+                <h2 id="project" style="margin-bottom: 20px;">PROJECT</h2>
+                    <p>
+                        <div class="project-content-summary">
+                            <img src="public/images/ckr1.png" style="width: 600; height: 400; padding-left: 20px;">
+                            <img src="public/images/ckr2.png" style="width: 600; height: 400;">
+                            <h1 style="margin-bottom: 100px;">SHOPPING WEBSITE UI DESIGN</h1>
+                            <img src="public/images/youtube_replica.png" style="width: 600; height: 400; padding-left: 20px;">
+                            <img src="public/images/youtube_replica2.png" style="width: 600; height: 400;">
+                            <h1 style="margin-bottom: 100px;">YOUTUBE REPLICA</h1>
+                            <img src="public/images/funky_monkey1.png" style="width: 600; height: 400; padding-left: 20px;">
+                            <img src="public/images/funky_monkey2.png" style="width: 600; height: 400;">
+                            <img src="public/images/funky_monkey3.png" style="width: 600; height: 400; padding-left: 20px;">
+                            <img src="public/images/funky_monkey4.png" style="width: 600; height: 400;">
+                            <img src="public/images/funky_monkey5.png" style="width: 600; height: 400; padding-left: 20px;">
+                            <h1 style="margin-bottom: 100px;">PYTHON PROJECT:: FUNKY MONKEY</h1>
+                            <img src="public/images/beer_making.png" style="width: 600; height: 400;">
+                            <img src="public/images/beer_making2.png" style="width: 600; height: 400;">
+                            <h1 style="margin-bottom: 100px;">PYTHON PROJECT:: BREWERY HOUSE</h1>
+                            <img src="public/images/magazine23.jpg" style="width: 400; height: 600; padding-left: 15px;">
+                            <img src="public/images/magazine23_2.jpg" style="width: 400; height: 600;">
+                            <img src="public/images/magazine23_3.jpg" style="width: 400; height: 600;">
+                            <h1 style="margin-bottom: 100px;">ANTHOLOGY MAGAZINE DESIGNING</h1>
+                        
+                        </div>
                     </p>
-                    <a class="bi-journal-bookmark-fill" style="text-decoration: none; color: blue;" target="_self" href="public/docs/Sample blog post_notepad.txt"> Open My Document</a>
-                </div>
+            </div>
         </div>
     </section>
 </body>
