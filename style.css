@@ -137,3 +137,10 @@
         .project-content{
             margin-left: 200px;
         }
+        .project-content-summary{
+            img , h1{
+                width: 600; 
+                height: 400; 
+                margin-bottom: 20 ;
+            }
+        }
